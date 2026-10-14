@@ -1,0 +1,30 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  rust:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt, clippy
+      - run: cargo fmt --all -- --check
+      - run: cargo test --locked
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Check public plugin manifest
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m = json.loads(Path('manifest.json').read_text())
+          assert m['id'] == 'dnappier.netgear-poe'
+          assert m['version'] == '0.1.0'
+          assert Path(m['entryPoints']['barWidget']).is_file()
+          assert not any(p.is_symlink() for p in Path('.').rglob('*') if '.git' not in p.parts)
+          PY

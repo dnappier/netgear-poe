@@ -1,0 +1,4 @@
+/target/
+*.local.toml
+.netgear-poe.toml
+__pycache__/

@@ -1,0 +1,13 @@
+# Copy to ~/.netgear-poe.toml, then chmod 600 ~/.netgear-poe.toml.
+url = "http://192.168.1.250"
+username = "admin"
+password = "REPLACE_ME"
+timeout_seconds = 15
+# Never cycle uplinks, your management path, or critical equipment.
+# Add those port numbers here after reviewing your topology.
+protected_ports = []
+
+# Optional exact device names, keyed by full MAC, not just manufacturer prefix.
+# Labels do not assert that a device is directly attached to a port.
+# [device_names]
+# "DC:A6:32:01:02:03" = "Lab Raspberry Pi"

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780">
+  <rect width="1200" height="780" fill="#0b0c16"/>
+  <g font-family="DejaVu Sans Mono,monospace" fill="#ddf7ff">
+    <text x="44" y="64" font-size="32" font-weight="bold">NETGEAR PoE</text>
+    <text x="44" y="100" font-size="16" fill="#a9b8cb">Desktop panel · SSH terminal · Agent-friendly JSON</text>
+    <text x="44" y="132" font-size="12" fill="#8792aa">Interface illustration · synthetic devices and documentation-only addresses</text>
+    <rect x="44" y="164" width="525" height="526" rx="10" fill="#141725" stroke="#394057"/>
+    <rect x="605" y="164" width="551" height="526" rx="10" fill="#10131c" stroke="#394057"/>
+    <text x="67" y="195" font-size="12" fill="#a9b8cb">OMARCHY / QUICKSHELL</text>
+    <text x="628" y="195" font-size="12" fill="#a9b8cb">SSH / netgear-poe tui</text>
+    <path d="M518 178h-13l-6 15h9l-4 14 17-21h-11z" fill="#0088ff"/>
+    <text x="67" y="232" font-size="22" font-weight="bold">NETGEAR PoE</text>
+    <text x="67" y="260" font-size="12" fill="#a9b8cb">Blue: PoE · green: link · gray: offline</text>
+    <rect x="67" y="275" width="86" height="27" rx="3" fill="#23283b" stroke="#59617b"/>
+    <text x="78" y="293" font-size="12">Refresh</text>
+    <text x="67" y="337" font-size="13" fill="#0088ff">Port 1 · Example AP | up | 5.2 W</text>
+    <rect x="511" y="314" width="32" height="30" rx="3" fill="#0088ff"/>
+    <path d="M529 319h-8l-4 11h6l-2 10 12-16h-7z" fill="#10131c"/>
+    <text x="67" y="360" font-size="11" fill="#a9b8cb">LLDP neighbor</text>
+    <text x="67" y="380" font-size="11" fill="#a9b8cb">MAC 02:00:00:00:00:01 | 192.0.2.11</text>
+    <text x="67" y="403" font-size="11" fill="#a9b8cb">▸ Show evidence (3 MACs)</text>
+    <path d="M67 418h476" stroke="#394057"/>
+    <text x="67" y="443" font-size="13" fill="#0088ff">Port 3 · Lab controller | up | 6.0 W</text>
+    <rect x="511" y="421" width="32" height="30" rx="3" fill="#0088ff"/>
+    <path d="M529 426h-8l-4 11h6l-2 10 12-16h-7z" fill="#10131c"/>
+    <text x="67" y="466" font-size="11" fill="#a9b8cb">MAC candidate (unverified)</text>
+    <text x="67" y="486" font-size="11" fill="#a9b8cb">MAC 02:00:00:00:00:03 | 192.0.2.13</text>
+    <text x="67" y="509" font-size="11" fill="#a9b8cb">▸ Show evidence (1 MACs)</text>
+    <path d="M67 524h476" stroke="#394057"/>
+    <text x="67" y="550" font-size="13" fill="#00dd55">Port 4 · Example switch | up | 0.0 W</text>
+    <rect x="511" y="527" width="32" height="30" rx="3" fill="#141725" stroke="#00dd55"/>
+    <path d="M529 532h-8l-4 11h6l-2 10 12-16h-7z" fill="#00dd55"/>
+    <text x="67" y="573" font-size="11" fill="#a9b8cb">Switch UI neighbor</text>
+    <text x="67" y="593" font-size="11" fill="#a9b8cb">MAC 02:00:00:00:00:04 | 192.0.2.14</text>
+    <text x="67" y="616" font-size="11" fill="#a9b8cb">▸ Show evidence (8 MACs)</text>
+    <path d="M67 631h476" stroke="#394057"/>
+    <text x="67" y="658" font-size="13" fill="#777777">Port 12 | down | no PoE</text>
+    <text x="628" y="234" font-size="17" font-weight="bold">NETGEAR PoE</text>
+    <text x="628" y="260" font-size="11" fill="#a9b8cb">Fresh snapshot · blue: PoE · green: link only</text>
+    <text x="628" y="303" font-size="13" fill="#0088ff">› Port 1 · Example AP | up | 5.2 W</text>
+    <path d="M628 309h477" stroke="#0088ff"/>
+    <rect x="1118" y="287" width="24" height="23" fill="#0088ff"/>
+    <path d="M1131 291h-7l-3 8h5l-2 9 10-13h-6z" fill="#10131c"/>
+    <text x="641" y="330" font-size="11" fill="#a9b8cb">LLDP neighbor</text>
+    <text x="641" y="351" font-size="11" fill="#a9b8cb">02:00:00:00:00:01 | 192.0.2.11</text>
+    <text x="641" y="372" font-size="11" fill="#a9b8cb">▸ Show evidence (3 MACs)</text>
+    <path d="M628 391h512" stroke="#394057"/>
+    <text x="628" y="418" font-size="13" fill="#0088ff">  Port 3 · Lab controller | up | 6.0 W</text>
+    <rect x="1118" y="402" width="24" height="23" fill="#0088ff"/>
+    <path d="M1131 406h-7l-3 8h5l-2 9 10-13h-6z" fill="#10131c"/>
+    <text x="641" y="445" font-size="11" fill="#a9b8cb">MAC candidate (unverified)</text>
+    <text x="641" y="466" font-size="11" fill="#a9b8cb">02:00:00:00:00:03 | 192.0.2.13</text>
+    <text x="641" y="487" font-size="11" fill="#a9b8cb">▸ Show evidence (1 MACs)</text>
+    <path d="M628 506h512" stroke="#394057"/>
+    <text x="628" y="533" font-size="13" fill="#00dd55">  Port 4 · Example switch | up | 0.0 W</text>
+    <text x="641" y="559" font-size="11" fill="#a9b8cb">Switch UI neighbor</text>
+    <text x="641" y="580" font-size="11" fill="#a9b8cb">02:00:00:00:00:04 | 192.0.2.14</text>
+    <path d="M628 604h512" stroke="#394057"/>
+    <text x="628" y="632" font-size="11" fill="#a9b8cb">↑↓ select · e evidence · r refresh · q quit</text>
+    <text x="628" y="658" font-size="11" fill="#ffb840">Space: IMMEDIATE power cycle</text>
+    <text x="44" y="735" font-size="13" fill="#a9b8cb">Experimental v0.1 · Unofficial community project · Protect uplinks before cycling</text>
+  </g>
+</svg>

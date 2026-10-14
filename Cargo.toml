@@ -1,0 +1,25 @@
+[package]
+name = "netgear-poe"
+version = "0.1.0"
+edition = "2024"
+description = "Inspect NETGEAR AV switches and explicitly reset selected PoE ports"
+license = "MIT"
+authors = ["Doug Nappier"]
+repository = "https://github.com/dnappier/netgear-poe"
+readme = "README.md"
+keywords = ["netgear", "poe", "cli", "tui", "omarchy"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+ratatui = "0.29"
+crossterm = "0.28"
+unicode-width = "0.2"
+
+[dev-dependencies]
+tempfile = "3"
+tiny_http = "0.12"
